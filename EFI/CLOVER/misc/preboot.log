@@ -1,0 +1,412 @@
+0:100  0:100  MemLog inited, TSC freq: 3292374981
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x0C008086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=90, 0x81=11, 0x91=00) at chipset 0C008086
+0:100  0:000  , Install = Success
+0:108  0:008  BiosVideoDriverBindingStart!
+0:108  0:000  BiosVideoCheckForVbe
+0:108  0:000  EdidOverride not found
+0:108  0:000   Edid1+
+0:108  0:000   found Detail Timing 1920x1080
+0:108  0:000   Edid0+
+0:108  0:000   found Detail Timing 1920x1080
+0:108  0:000  ... already present
+0:112  0:003     0 1280x960 attr=BB - ok, edid-
+0:113  0:000     1 640x480 attr=BB - ok, edid+, 640x480, working, highest, pref=1
+0:113  0:000     2 800x600 attr=BB - ok, edid+, 800x600, working, highest, pref=2
+0:113  0:000     3 1024x768 attr=BB - ok, edid+, 1024x768, working, highest, pref=3
+0:114  0:000     4 1280x1024 attr=BB - ok, edid+, working, highest, pref=4
+0:115  0:001     5 1400x1050 attr=BB - ok, edid-
+0:117  0:002     6 1920x1080 attr=BB - ok, edid+, working, highest, pref=6
+0:118  0:000     7 1280x720 attr=BB - ok, edid-
+0:118  0:000  BV new mode: 6 1920x1080
+0:170  0:051   SetMode pref 6 (6) = Success
+0:170  0:000  VGA Pci.Hdr.Command=6 - not enabled
+0:290  0:119  VGA Pci.Hdr.Command=6 - not enabled
+1:547  1:257  VGA Pci.Hdr.Command=6 - not enabled
+1:551  0:004  VGA Pci.Hdr.Command=6 - not enabled
+2:898  1:346  VGA Pci.Hdr.Command=6 - not enabled
+2:998  0:100  
+2:998  0:000  Now is 21.02.2020,  12:46:48 (GMT)
+2:998  0:000  Starting Clover revision: 5103 (HEAD, commit 3f3b85da) on CLOVER EFI
+2:998  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/vagrant/.clobber/src/Clover/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+2:998  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000) @B5D59198
+2:998  0:000  SelfDirPath = \EFI\CLOVER
+2:998  0:000  SimpleTextEx Status=Success
+2:998  0:000  === [ Get Smbios ] ========================================
+2:998  0:000  Type 16 Index = 0
+2:998  0:000  Total Memory Slots Count = 2
+2:998  0:000  Type 17 Index = 0
+2:998  0:000  SmbiosTable.Type17->Speed = 1600MHz
+2:998  0:000  SmbiosTable.Type17->Size = 8192MB
+2:998  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+2:998  0:000  SmbiosTable.Type17->Vendor = Kingston
+2:998  0:000  SmbiosTable.Type17->SerialNumber = 782C48F7
+2:998  0:000  SmbiosTable.Type17->PartNumber = 99U5471-039.A00LF 
+2:998  0:000  Type 17 Index = 1
+2:998  0:000  Ignoring insane frequency value 0MHz
+2:998  0:000  SmbiosTable.Type17->Speed = 0MHz
+2:998  0:000  SmbiosTable.Type17->Size = 0MB
+2:998  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+2:998  0:000  SmbiosTable.Type17->Vendor = <null string>
+2:998  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+2:998  0:000  SmbiosTable.Type17->PartNumber = <null string>
+2:998  0:000  Boot status=0
+2:998  0:000  Running on: 'B85M-D2V-SI' with board 'B85M-D2V-SI'
+2:998  0:000  === [ GetCPUProperties ] ==================================
+2:998  0:000  CPU Vendor = 756E6547 Model=306C3
+2:998  0:000   The CPU supported SSE4.1
+2:998  0:000  BrandString = Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+2:998  0:000   The CPU supported turbo
+2:998  0:000  MSR 0x35               40004
+2:998  0:000  MSR 0xE2 before patch 1E000402
+2:998  0:000  MSR 0xCE              00080838_F3012100
+2:998  0:000  corrected FLEX_RATIO = 0
+2:998  0:000  FSBFrequency = 107 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+2:998  0:000  MaxDiv/MinDiv: 33.0/8
+2:998  0:000  Turbo: 35/36/37/37
+2:998  0:000  Features: 0xBFEBFBFF
+2:998  0:000  Threads: 4
+2:998  0:000  Cores: 4
+2:998  0:000  FSB: 100 MHz
+2:998  0:000  CPU: 3500 MHz
+2:998  0:000  TSC: 3500 MHz
+2:998  0:000  PIS: 100 MHz
+2:998  0:000  ExternalClock: 25 MHz
+2:998  0:000  === [ GetDevices ] ========================================
+2:998  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+2:998  0:000  PCI (00|00:00.00) : 8086 0C00 class=060000
+2:998  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+2:998  0:000  PCI (00|01:00.00) : 1002 67DF class=030000
+2:998  0:000   - GOP: Provided by device
+2:998  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+2:999  0:000  PCI (00|01:00.01) : 1002 AAF0 class=040300
+2:999  0:000   - HDMI Audio: 
+2:999  0:000  PCI (00|00:02.00) : 8086 0412 class=030000
+2:999  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+2:999  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+2:999  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+2:999  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+2:999  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+2:999  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+2:999  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+2:999  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+2:999  0:000   - LAN: 0 Vendor=Realtek
+2:999  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+2:999  0:000  PCI (00|00:1F.00) : 8086 8C50 class=060100
+2:999  0:000  PCI (00|00:1F.02) : 8086 8C02 class=010601
+2:999  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+2:999  0:000  === [ GetDefaultSettings ] ================================
+2:999  0:000  Clover load options size = 0 bytes
+2:999  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\B85M-D2V-SI--00-00-00-00-00-00. Dir not exists
+2:999  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\B85M-D2V-SI. Dir not exists
+2:999  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\B85M-D2V-SI-3500. Dir not exists
+2:999  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\B85M-D2V-SI. Dir not exists
+2:999  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\B85M-D2V-SI-3500. Dir not exists
+2:999  0:000  set OEMPath by default: EFI\CLOVER
+3:008  0:009  EFI\CLOVER\config.plist loaded: Success
+3:012  0:003  === [ GetListOfThemes ] ===================================
+3:019  0:007  - [00]: Bootcamp4k
+3:024  0:004  - [01]: Circla
+3:034  0:010  - [02]: Material
+3:043  0:009  - [03]: SimpleThemeDark
+3:048  0:004  - [04]: Sphere
+3:057  0:009  === [ Found config plists ] ===============================
+3:057  0:000  - config.plist
+3:057  0:000  === [ GetEarlyUserSettings ] ==============================
+3:058  0:000  timeout set to 15
+3:058  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+3:058  0:000  KextsToPatch: 1 requested
+3:058  0:000   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+3:058  0:000  Default theme: Circla
+3:058  0:000  Hiding entries with string Preboot
+3:058  0:000  === [ LoadDrivers ] =======================================
+3:058  0:000  === [ InitScreen ] ========================================
+3:058  0:000  Console modes reported: 4, available modes:
+3:058  0:000   - [01]: 80x25
+3:058  0:000   - [02]: 80x50
+3:058  0:000   - [03]: 100x31
+3:058  0:000   - [04]: 240x56 (current mode)
+3:058  0:000  SetScreenResolution: 1920x1080 - already set
+3:058  0:000  SetScreenResolution: 1920x1080 - already set
+3:058  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+3:058  0:000  === [ GetMacAddress ] =====================================
+3:058  0:000  === [ ScanSPD ] ===========================================
+3:058  0:000  Scanning SMBus [8086:8C22], mmio: 0xF7E15004, ioport: 0xF040, hostc: 0x11
+3:076  0:018  Slot: 0 Type 24 8192MB 1600MHz Vendor=Kingston PartNo=99U5471-039.A00LF SerialNo=0708020C04080F07
+3:095  0:018  Slot: 2 Type 24 8192MB 1600MHz Vendor=Team Group PartNo=Team-Elite-1600 SerialNo=00010002050B0406
+3:096  0:000  === [ GetAcpiTablesList ] =================================
+3:099  0:003  Get Acpi Tables List from RSDT:
+3:099  0:000   - [00]: FACP  A M I len=132
+3:099  0:000   - [01]: APIC  A M I len=114
+3:099  0:000   - [02]: FPDT  A M I len=68
+3:099  0:000   - [03]: SSDT  Cpu0Ist len=1337
+3:099  0:000   - [04]: SSDT  CpuPm len=2776
+3:099  0:000   - [05]: MCFG  A M I len=60
+3:099  0:000   - [06]: HPET  A M I len=56
+3:099  0:000   - [07]: SSDT  SataTabl len=877
+3:099  0:000   - [08]: SSDT  SaSsdt  len=13537
+3:099  0:000   - [09]: DMAR  HSW  len=184
+3:099  0:000  Calibrated TSC Frequency = 3292374981 = 3292MHz
+3:099  0:000  === [ GetUserSettings ] ===================================
+3:099  0:000  Add 1 devices:
+3:099  0:000  USB FixOwnership: no
+3:099  0:000   - final DSDT Fix mask=10400000
+3:099  0:000  Using ProductName from clover: iMac14,2
+3:099  0:000  BiosVersion: not set, Using BiosVersion from clover
+3:099  0:000  BiosVersion: IM142.88Z.F000.B00.1907241133
+3:099  0:000  BiosReleaseDate: 07/24/2019
+3:099  0:000  Using EfiVersion from clover: 140.0.0.0.0
+3:099  0:000  Using FirmwareFeatures from clover: 0xE00FE137
+3:099  0:000  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+3:099  0:000  Using PlatformFeature from clover: 0x1
+3:099  0:000  CpuFreq: 3300MHz
+3:099  0:000  CpuType: 507
+3:099  0:000  BusSpeed: 100000kHz
+3:099  0:000  === [ Found DSDT tables ] =================================
+3:149  0:049  === [ ScanVolumes ] =======================================
+3:149  0:000  Found 19 volumes with blockIO
+3:149  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+3:149  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)
+3:150  0:001          Result of bootcode detection: bootable unknown (legacy)
+3:150  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)
+3:154  0:003          Result of bootcode detection: bootable unknown (legacy)
+3:154  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+3:171  0:016  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,60C96BAC-C08C-4122-8174-F9821A94D871,0x800,0x96000)
+3:171  0:000          Result of bootcode detection: bootable Windows (win)
+3:172  0:001  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,E8F60ED1-DC29-48D5-A141-64919AA6C2F0,0x96800,0x40000)
+3:172  0:000          Result of bootcode detection: bootable unknown (legacy)
+3:172  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,6C035F4B-13DA-4B6C-8B7A-D5C29FCD7969,0xD6800,0x3A2AF80F)
+3:172  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:172  0:000  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(1,MBR,0xAD70B901,0x1000,0xDDCFE25)
+3:173  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:173  0:000  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,MBR,0xAD70B901,0xDDD1000,0x1C1800)
+3:173  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:173  0:000  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(1,MBR,0x4D9E8F6E,0x800,0x6400800)
+3:175  0:002          Result of bootcode detection: bootable Windows (vista,win)
+3:175  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)
+3:175  0:000          Result of bootcode detection: bootable unknown (legacy)
+3:175  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(1,MBR,0x00000000,0x6401800,0x6400800)
+3:175  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:176  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(2,MBR,0x00000000,0xC802800,0x6217000)
+3:176  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:176  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,3CC4A06F-F83A-4EDA-B17C-28CD685030C7,0x800,0xDC00001)
+3:177  0:001          Result of bootcode detection: bootable Windows (vista,win)
+3:177  0:000  - [14]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,C45C7CC6-E90D-4713-9DD4-737E10428525,0xDC01000,0x19800001)
+3:188  0:010          Result of bootcode detection: bootable Windows (vista,win)
+3:188  0:000  - [15]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+3:202  0:013          Result of bootcode detection: bootable Windows (win)
+3:206  0:003          This is SelfVolume !!
+3:206  0:000  - [16]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,B7F3DDE4-2A94-4B50-0F6C-FC4519022EAA,0x27498000,0x1996A000)
+3:214  0:008          Result of bootcode detection: bootable unknown (legacy)
+3:214  0:000  - [17]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(5,GPT,28B99224-0E96-48BA-9D89-0BC6C30459B7,0x40E02000,0x19800001)
+3:226  0:012          Result of bootcode detection: bootable Windows (vista,win)
+3:226  0:000  - [18]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(6,GPT,452D62CB-A30C-4DE8-A063-D8023ED40141,0x5A602800,0x1A103437)
+3:239  0:012          Result of bootcode detection: bootable Windows (vista,win)
+3:239  0:000  PutNvramPlistToRtVars: nvram.plist not found
+3:239  0:000  No AudioIoProtocols, status=Not Found
+3:239  0:000  === [ InitTheme ] =========================================
+3:239  0:000  use night theme
+3:240  0:000  Using theme 'Circla' (EFI\CLOVER\themes\Circla)
+3:240  0:000  OS main and drive as badge
+3:240  0:000  file sound read: sound_night.wav Not Found
+3:258  0:018    Channels: 1  Sample rate: 44100 Hz  Bits: 16
+3:258  0:000  output to channel 0 with volume 70, len=147584
+3:258  0:000   sound channels=1 bits=16 freq=44100
+3:258  0:000  not found AudioIo to play
+3:258  0:000  free sound
+3:258  0:000  sound play end with status=Not Found
+3:259  0:001  Loading font from ThemeDir: Success
+3:259  0:000  theme inited
+3:259  0:000  Chosen theme Circla
+3:259  0:000  after NVRAM boot-args=Slide=1 darkwake=8
+3:259  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+3:259  0:000  no AppleSMC protocol
+3:259  0:000  === [ ScanLoader ] ========================================
+3:259  0:000  - [04]: 'EFI'
+3:259  0:000  - [15]: 'EFI'
+3:268  0:008          AddLoaderEntry for Volume Name=EFI
+3:268  0:000          skipped because entry is hidden
+3:268  0:000  === [ AddCustomTool ] =====================================
+3:268  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+3:268  0:000  Default boot entry not found
+3:268  0:000  DefaultIndex=-1 and MainMenu.EntryCount=4
+3:586  0:318  GUI ready
+9:815  6:228  exit from MainMenu 8
+9:815  0:000  ReinitSelfLib after theme change
+9:815  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+9:815  0:000  === [ ScanVolumes ] =======================================
+9:815  0:000  Found 19 volumes with blockIO
+9:815  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+9:815  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)
+9:817  0:001          Result of bootcode detection: bootable unknown (legacy)
+9:817  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)
+9:834  0:017          Result of bootcode detection: bootable unknown (legacy)
+9:834  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+9:854  0:019  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,60C96BAC-C08C-4122-8174-F9821A94D871,0x800,0x96000)
+9:854  0:000          Result of bootcode detection: bootable Windows (win)
+9:854  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,E8F60ED1-DC29-48D5-A141-64919AA6C2F0,0x96800,0x40000)
+9:854  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:854  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,6C035F4B-13DA-4B6C-8B7A-D5C29FCD7969,0xD6800,0x3A2AF80F)
+9:855  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:855  0:000  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(1,MBR,0xAD70B901,0x1000,0xDDCFE25)
+9:855  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:855  0:000  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,MBR,0xAD70B901,0xDDD1000,0x1C1800)
+9:855  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:855  0:000  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(1,MBR,0x4D9E8F6E,0x800,0x6400800)
+9:856  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:856  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)
+9:856  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:856  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(1,MBR,0x00000000,0x6401800,0x6400800)
+9:856  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:856  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(2,MBR,0x00000000,0xC802800,0x6217000)
+9:872  0:016          Result of bootcode detection: bootable Windows (vista,win)
+9:872  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,3CC4A06F-F83A-4EDA-B17C-28CD685030C7,0x800,0xDC00001)
+9:872  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:872  0:000  - [14]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,C45C7CC6-E90D-4713-9DD4-737E10428525,0xDC01000,0x19800001)
+9:880  0:007          Result of bootcode detection: bootable Windows (vista,win)
+9:880  0:000  - [15]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+9:894  0:014          Result of bootcode detection: bootable Windows (win)
+9:894  0:000          This is SelfVolume !!
+9:894  0:000  - [16]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,B7F3DDE4-2A94-4B50-0F6C-FC4519022EAA,0x27498000,0x1996A000)
+9:897  0:003          Result of bootcode detection: bootable unknown (legacy)
+9:897  0:000  - [17]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(5,GPT,28B99224-0E96-48BA-9D89-0BC6C30459B7,0x40E02000,0x19800001)
+9:910  0:012          Result of bootcode detection: bootable Windows (vista,win)
+9:910  0:000  - [18]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(6,GPT,452D62CB-A30C-4DE8-A063-D8023ED40141,0x5A602800,0x1A103437)
+9:923  0:012          Result of bootcode detection: bootable Windows (vista,win)
+9:923  0:000  No AudioIoProtocols, status=Not Found
+9:923  0:000  theme inited
+9:923  0:000  Chosen theme Circla
+9:923  0:000  after NVRAM boot-args=Slide=1 darkwake=8
+9:923  0:000  === [ ScanLoader ] ========================================
+9:923  0:000  - [04]: 'EFI'
+9:923  0:000  - [15]: 'EFI'
+9:923  0:000          AddLoaderEntry for Volume Name=EFI
+9:944  0:021  === [ AddCustomTool ] =====================================
+9:944  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+9:944  0:000  Default boot entry not found
+9:944  0:000  DefaultIndex=-1 and MainMenu.EntryCount=5
+11:645  1:700  exit from MainMenu 8
+11:645  0:000  ReinitSelfLib after theme change
+11:645  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+11:645  0:000  === [ ScanVolumes ] =======================================
+11:645  0:000  Found 19 volumes with blockIO
+11:645  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+11:645  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)
+11:646  0:001          Result of bootcode detection: bootable unknown (legacy)
+11:646  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)
+11:667  0:020          Result of bootcode detection: bootable unknown (legacy)
+11:667  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+11:667  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,60C96BAC-C08C-4122-8174-F9821A94D871,0x800,0x96000)
+11:667  0:000          Result of bootcode detection: bootable Windows (win)
+11:667  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,E8F60ED1-DC29-48D5-A141-64919AA6C2F0,0x96800,0x40000)
+11:668  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:668  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,6C035F4B-13DA-4B6C-8B7A-D5C29FCD7969,0xD6800,0x3A2AF80F)
+11:668  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:668  0:000  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(1,MBR,0xAD70B901,0x1000,0xDDCFE25)
+11:668  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:668  0:000  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,MBR,0xAD70B901,0xDDD1000,0x1C1800)
+11:668  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:668  0:000  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(1,MBR,0x4D9E8F6E,0x800,0x6400800)
+11:672  0:003          Result of bootcode detection: bootable Windows (vista,win)
+11:672  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)
+11:672  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:672  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(1,MBR,0x00000000,0x6401800,0x6400800)
+11:672  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:672  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(2,MBR,0x00000000,0xC802800,0x6217000)
+11:688  0:016          Result of bootcode detection: bootable Windows (vista,win)
+11:688  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,3CC4A06F-F83A-4EDA-B17C-28CD685030C7,0x800,0xDC00001)
+11:688  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:688  0:000  - [14]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,C45C7CC6-E90D-4713-9DD4-737E10428525,0xDC01000,0x19800001)
+11:688  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:688  0:000  - [15]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+11:689  0:000          Result of bootcode detection: bootable Windows (win)
+11:689  0:000          This is SelfVolume !!
+11:689  0:000  - [16]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,B7F3DDE4-2A94-4B50-0F6C-FC4519022EAA,0x27498000,0x1996A000)
+11:689  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:689  0:000  - [17]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(5,GPT,28B99224-0E96-48BA-9D89-0BC6C30459B7,0x40E02000,0x19800001)
+11:689  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:689  0:000  - [18]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(6,GPT,452D62CB-A30C-4DE8-A063-D8023ED40141,0x5A602800,0x1A103437)
+11:689  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:689  0:000  No AudioIoProtocols, status=Not Found
+11:689  0:000  theme inited
+11:689  0:000  Chosen theme Circla
+11:689  0:000  after NVRAM boot-args=Slide=1 darkwake=8
+11:689  0:000  === [ ScanLoader ] ========================================
+11:689  0:000  - [04]: 'EFI'
+11:689  0:000  - [15]: 'EFI'
+11:689  0:000          AddLoaderEntry for Volume Name=EFI
+11:689  0:000          skipped because entry is hidden
+11:689  0:000  === [ AddCustomTool ] =====================================
+11:689  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+11:689  0:000  Default boot entry not found
+11:689  0:000  DefaultIndex=-1 and MainMenu.EntryCount=4
+12:454  0:765  exit from MainMenu 8
+12:454  0:000  ReinitSelfLib after theme change
+12:454  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+12:454  0:000  === [ ScanVolumes ] =======================================
+12:454  0:000  Found 19 volumes with blockIO
+12:454  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+12:454  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)
+12:456  0:001          Result of bootcode detection: bootable unknown (legacy)
+12:456  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)
+12:456  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:456  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+12:456  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,60C96BAC-C08C-4122-8174-F9821A94D871,0x800,0x96000)
+12:456  0:000          Result of bootcode detection: bootable Windows (win)
+12:456  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,E8F60ED1-DC29-48D5-A141-64919AA6C2F0,0x96800,0x40000)
+12:457  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:457  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,6C035F4B-13DA-4B6C-8B7A-D5C29FCD7969,0xD6800,0x3A2AF80F)
+12:457  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:457  0:000  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(1,MBR,0xAD70B901,0x1000,0xDDCFE25)
+12:457  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:457  0:000  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x0,0x0)\HD(2,MBR,0xAD70B901,0xDDD1000,0x1C1800)
+12:457  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:457  0:000  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(1,MBR,0x4D9E8F6E,0x800,0x6400800)
+12:457  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:457  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)
+12:458  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:458  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(1,MBR,0x00000000,0x6401800,0x6400800)
+12:458  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:458  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0x0,0x0)\HD(2,MBR,0x4D9E8F6E,0x6401000,0xC618800)\HD(2,MBR,0x00000000,0xC802800,0x6217000)
+12:488  0:029          Result of bootcode detection: bootable Windows (vista,win)
+12:488  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,3CC4A06F-F83A-4EDA-B17C-28CD685030C7,0x800,0xDC00001)
+12:488  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:488  0:000  - [14]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,C45C7CC6-E90D-4713-9DD4-737E10428525,0xDC01000,0x19800001)
+12:488  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:488  0:000  - [15]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,9C917673-F372-4CE2-B3B4-7F2E81E1434B,0x27401800,0x96000)
+12:488  0:000          Result of bootcode detection: bootable Windows (win)
+12:488  0:000          This is SelfVolume !!
+12:488  0:000  - [16]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,B7F3DDE4-2A94-4B50-0F6C-FC4519022EAA,0x27498000,0x1996A000)
+12:488  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:488  0:000  - [17]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(5,GPT,28B99224-0E96-48BA-9D89-0BC6C30459B7,0x40E02000,0x19800001)
+12:489  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:489  0:000  - [18]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(6,GPT,452D62CB-A30C-4DE8-A063-D8023ED40141,0x5A602800,0x1A103437)
+12:489  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:489  0:000  No AudioIoProtocols, status=Not Found
+12:489  0:000  theme inited
+12:489  0:000  Chosen theme Circla
+12:489  0:000  after NVRAM boot-args=Slide=1 darkwake=8
+12:489  0:000  === [ ScanLoader ] ========================================
+12:489  0:000  - [04]: 'EFI'
+12:489  0:000  - [15]: 'EFI'
+12:489  0:000          AddLoaderEntry for Volume Name=EFI
+12:489  0:000  === [ AddCustomTool ] =====================================
+12:489  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+12:489  0:000  Default boot entry not found
+12:489  0:000  DefaultIndex=-1 and MainMenu.EntryCount=5
+16:585  4:095  exit from MainMenu 7
+30:435  13:850  exit from MainMenu 1
+30:435  0:000  ParseBootOption: invalid input params
+30:435  0:000  BootVariable of the entry is empty
+30:435  0:000  === [ StartLoader ] =======================================
+30:435  0:000  Finally: ExternalClock=25MHz BusSpeed=100000kHz CPUFreq=3300MHz PIS: hw.busfrequency=100000000Hz
+30:435  0:000  Loading BOOTX64.efi  status=Success
+30:559  0:123  SetStartupDiskVolume:
+30:559  0:000    * Volume: 'EFI'
+30:559  0:000    * LoaderPath: '\EFI\BOOT\BOOTX64.efi'
+30:559  0:000    * DevPath: EFI
+30:559  0:000    * GUID = 9C917673-F372-4CE2-B3B4-7F2E81E1434B
+30:559  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>9C917673-F372-4CE2-B3B4-7F2E81E1434B</string></dict></dict></dict></array>
+30:559  0:000  Custom boot is disabled
+30:559  0:000  Closing log
